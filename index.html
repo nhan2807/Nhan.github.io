@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- link to font awesome for inserting icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- link to css for style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">WELCOME TO MY PORTFOLIO<span> </span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Nhan</span><br>Intergrated Circuit Designing Student</h1>
+            <p>I’m passionate about exploring the world of microelectronics and semiconductor technology. </p>
+            <p>With a focus on IC design, I strive to build efficient and innovative circuit solutions that power modern devices.</p>
+            <p>I aim to bridge the gap between hardware and digital innovation.</p>
+            <a href="#contact" class="cta-button">Contact me</a>
+        </div>
+
+        <div class="profile-container">
+            <div class="profile-border"></div>
+            <div class="tech-icons">
+                <i class="tech-icon" style="top: 0; left: 50%; transform: translateX(-50%);">💾</i>
+                <i class="tech-icon" style="top: 50%; right: 0; transform: translateY(-50%);">💻</i>
+                <i class="tech-icon" style="bottom: 0; left: 50%; transform: translateX(-50%);">🔌</i>
+                <i class="tech-icon" style="top: 50%; left: 0; transform: translateY(-50%);">✏️</i>
+            </div>
+            <img src="assets/profile.jpg" alt="Profile Picture" width="300px" class="profile-pic">
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a first-year Electrical – Electronics Engineering student with a strong interest in IC design and scientific research.</p>
+                <p>I’m passionate about combining analytical thinking with effective communication to explore innovative ideas in chip design and hardware systems.</p>
+                <p>I have a solid foundation in English, which allows me to read academic materials, write research papers, and communicate effectively in both academic and collaborative environments.</p>
+            </div>
+
+            <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Research Paper Writing</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Teamwork & Collaboration</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Speaking & PresentationSpeaking & Presentation</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style= "width: 65%""></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Graphic Design</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- 1st card -->
+            <div class="project-card">
+                <img src="assets/1.png" alt="Project 1" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Library Website </h3>
+                    <p class="project-description">A cozy personal library management system with book status tracking, genres, and borrower history.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">SQL Server</span>
+                    <!-- </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd card -->
+            <div class="project-card">
+                <img src="assets/2.png" alt="Project 2" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Research Paper: AI Applications in Semiconductor Design</h3>
+                    <p class="project-description">A comprehensive study on how AI can optimize semiconductor design and manufacturing.</p>
+                    <div class="project-tech">
+                       <span class="tech-tag">Research</span>
+                        <span class="tech-tag">Semiconductor</span>
+                        <span class="tech-tag">AI</span>
+                    </div>
+                    <!-- <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a> 
+                    </div> -->
+                </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="project-card">
+                <img src="assets/3.png" alt="Project 3" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Technical Article: Sustainable Practices in Electronics Manufacturing</h3>
+                    <p class="project-description">Insightful article about sustainable manufacturing methods in the electronics industry.</p>
+                    <div class="project-tech">
+                       <span class="tech-tag">Research</span>
+                        <span class="tech-tag">Sustainability</span>
+                        <span class="tech-tag">Manufacturing</span>
+                    </div>
+                   <!-- <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a> --> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact me</h2>
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-textarea" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/nhan2807" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nh%C3%A2n-l%C3%AA-thanh-a2a549355/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100094881199097" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://stackoverflow.com/users/30414429/nh%c3%a2n-l%c3%aa-thanh" class="social-link"><i class="fa-brands fa-stack-overflow"></i></a>
+    
+        </div>
+
+    </footer>
+
+ <!-- link to JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
