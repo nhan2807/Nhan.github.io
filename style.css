@@ -477,13 +477,7 @@
         box-shadow: 0 0 25px rgba(0, 136, 255, 0.5);
     }
 
-    /* Footer */
-    footer {
-        text-align: center;
-        padding: 2rem;
-        background-color: #0a0a0a;
-        position: relative;
-    }
+ /* Social links */
 
     .social-links {
         display: flex;
